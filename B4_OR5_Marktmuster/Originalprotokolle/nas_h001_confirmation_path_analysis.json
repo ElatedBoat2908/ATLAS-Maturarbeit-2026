@@ -1,0 +1,73 @@
+{
+  "OR15_OR30_confirmation_accessed": false,
+  "bootstrap_lower95": 0.20647451963241437,
+  "bootstrap_p_two_sided": 0.0001999600079984003,
+  "bootstrap_seed": 2068426124,
+  "bootstrap_upper95": 0.44313725490196076,
+  "budget_id": "NAS100-BUDGET-1",
+  "confirmation_contract_operational_fingerprint": "e212745625286f5b1699224507ca5b5d4c9a62858e00bd4832ddbe776db53580",
+  "confirmation_events_from_census": 249,
+  "confirmation_window": [
+    "2025-01-01T00:00:00+00:00",
+    "2026-01-01T00:00:00+00:00"
+  ],
+  "continuation_first": 166,
+  "diagnostic_break_close_overshoot_or_median": 0.14285714285720472,
+  "diagnostic_break_close_overshoot_or_p90": 0.46048309178736235,
+  "diagnostic_fraction_break_close_already_beyond_primary_continuation_barrier": 0.08433734939759036,
+  "eligible_complete_60m_paths": 249,
+  "failure_first": 83,
+  "fallback_to_nonselected_variant": false,
+  "final_2026_holdout_accessed": false,
+  "gate_checks": [
+    {
+      "name": "minimum_eligible_events",
+      "observed": 249,
+      "pass": true,
+      "required": 200
+    },
+    {
+      "name": "minimum_resolved_fraction",
+      "observed": 1.0,
+      "pass": true,
+      "required": 0.6
+    },
+    {
+      "name": "minimum_continuation_effect",
+      "observed": 0.3333333333333333,
+      "pass": true,
+      "required": 0.05
+    },
+    {
+      "name": "bootstrap_lower95_positive",
+      "observed": 0.20647451963241437,
+      "pass": true,
+      "required": 0.0
+    },
+    {
+      "name": "two_sided_week_block_p",
+      "observed": 0.0001999600079984003,
+      "pass": true,
+      "required": "< 0.05"
+    }
+  ],
+  "hypothesis": "NAS-H001-V1",
+  "ineligible_incomplete_60m_paths": 0,
+  "notes": [
+    "Only the preregistered OR5 continuation mechanism was confirmed in 2025.",
+    "OR15 and OR30 were not opened and cannot rescue an OR5 failure.",
+    "2026+ final holdout was not read; paths crossing the cutoff are ineligible.",
+    "This remains a market-path mechanism test, not an executable or cost-adjusted trading strategy.",
+    "Break-close overshoot is reported diagnostically because a barrier already behind the known break close is not automatically monetizable from a post-signal entry."
+  ],
+  "phase": "0.7G.10",
+  "primary_effect": 0.3333333333333333,
+  "resolved_fraction": 1.0,
+  "runner_manifest_sha256": "100d874324c4bc3d5b4a2b419b7a9a5cdf00d83efa848af5051d6cc38f3f47bb",
+  "runner_source_sha256": "a26c377c38dccfb536e4fe911bb500eee3db63ad721a2f98ddf0676535b79e26",
+  "scientific_gate": "CONFIRMED_MARKET_MECHANISM_ONLY__NEXT_FREEZE_EXECUTABLE_TRADE_HYPOTHESIS",
+  "selected_mechanism": "ROBUST_CONTINUATION_CANDIDATE",
+  "selected_variant": "OR5",
+  "trade_entry_stop_target_r_pf_pnl_inspected": false,
+  "unresolved": 0
+}

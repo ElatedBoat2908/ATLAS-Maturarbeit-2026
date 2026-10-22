@@ -1,0 +1,14 @@
+{
+  "2026_holdout_accessed_before_runner_freeze": false,
+  "analysis_version": "NAS-H001-V1-DEVELOPMENT-PATH-V1",
+  "bootstrap_seed_rule": "SHA256(analysis_version|variant|ATLAS) -> uint32",
+  "bootstrap_simulations": 5000,
+  "confirmation_2025_accessed_before_runner_freeze": false,
+  "development_market_data_cutoff_exclusive": "2023-01-01T00:00:00Z",
+  "hypothesis": "NAS-H001-V1",
+  "path_plan_manifest_sha256": "632f93f4122f4e1c71243203da9bb693ae07127146b5b6597acd5614216b3acf",
+  "phase": "0.7G.6",
+  "post_break_paths_inspected_before_runner_freeze": false,
+  "runner_source_sha256": "b46216bca97968f875582faf0155d17e90131c24dce54206902efff74024c78f",
+  "validation_2023_2024_accessed_before_runner_freeze": false
+}

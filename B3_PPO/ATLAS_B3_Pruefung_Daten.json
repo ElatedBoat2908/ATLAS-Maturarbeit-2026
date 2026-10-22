@@ -1,0 +1,94 @@
+{
+  "erstellt_am": "2026-10-20",
+  "basis": "ppo_minimalziel_20261008_v2(1).zip (unveraendertes Original)",
+  "originaldateien": 20,
+  "python_syntax": "ok (ohne Ausfuehrung des PPO-Trainings)",
+  "protocol_id": {
+    "datum": "2026-10-08",
+    "revision": "v2_pre_result_continuity_correction"
+  },
+  "source_data": {
+    "parquet_name": "USTEC_M5.parquet",
+    "sha256_from_protocol": "4edc1117beb9f38badc3cdf028318b36b3144bef3af594932d37cf76c9b636c7",
+    "in_zip": false,
+    "raw_rows_reported": 100000,
+    "selected_rows_before_warmup": 58327,
+    "rows_after_feature_warmup": 58326,
+    "gap_days_reported": 55.16319444444444
+  },
+  "software_versionen": {
+    "python": "3.12.7",
+    "stable_baselines3": "2.9.0",
+    "pytorch": "2.14.1+cpu",
+    "numpy": "2.5.1",
+    "gymnasium": "1.4.0",
+    "cloudpickle": "3.1.2"
+  },
+  "pruefungen": {
+    "csv_vs_summary_json": true,
+    "csv_vs_fold_metrics": true,
+    "equity_renditen_und_drawdown_nachgerechnet": true,
+    "trades_winrates_und_anzahl_nachgerechnet": true,
+    "fuer_jedes_fold_genau_5_minuten_zwischen_train_end_und_test_start": true,
+    "drei_oos_zeitraeume_ohne_ueberschneidung": true,
+    "model_config_und_seed_geprueft": true,
+    "script_syntax_geprueft": true,
+    "ausgangs_zip_integritaet_tested": true,
+    "raw_data_hash_pruefbar": false,
+    "ausfuehrung_originalexperiment_wiederholt": false
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "return_pct": -11.226863545387644,
+      "win_rate_pct": 47.99283154121864,
+      "max_drawdown_pct": -17.182084030800816,
+      "trades": 2790,
+      "winning_trades": 1339,
+      "train_from": "2024-09-16 13:55:00+00:00",
+      "train_to": "2025-02-28 04:40:00+00:00",
+      "test_from": "2025-02-28 04:45:00+00:00",
+      "test_to": "2025-04-15 02:05:00+00:00",
+      "requested_training_timesteps": 64118,
+      "actual_model_training_timesteps": 65536,
+      "model_seed": 43,
+      "equity_rows": 8749
+    },
+    {
+      "fold": 2,
+      "return_pct": 9.920987119509173,
+      "win_rate_pct": 50.132802124834,
+      "max_drawdown_pct": -7.013679348148816,
+      "trades": 1506,
+      "winning_trades": 755,
+      "train_from": "2024-09-16 13:55:00+00:00",
+      "train_to": "2025-04-15 02:05:00+00:00",
+      "test_from": "2025-04-15 02:10:00+00:00",
+      "test_to": "2025-05-30 06:45:00+00:00",
+      "requested_training_timesteps": 81616,
+      "actual_model_training_timesteps": 81920,
+      "model_seed": 44,
+      "equity_rows": 8749
+    },
+    {
+      "fold": 3,
+      "return_pct": -3.5908687933437933,
+      "win_rate_pct": 48.50187265917603,
+      "max_drawdown_pct": -5.644654132907445,
+      "trades": 4272,
+      "winning_trades": 2072,
+      "train_from": "2024-09-16 13:55:00+00:00",
+      "train_to": "2025-05-30 06:45:00+00:00",
+      "test_from": "2025-05-30 06:50:00+00:00",
+      "test_to": "2025-07-16 10:40:00+00:00",
+      "requested_training_timesteps": 99114,
+      "actual_model_training_timesteps": 100352,
+      "model_seed": 45,
+      "equity_rows": 8749
+    }
+  ],
+  "fehlend": [
+    "Historische Original-Marktdaten USTEC_M5.parquet mit SHA256 aus protocol.json",
+    "Optional: vom urspruenglichen Projekt getrenntes PROTOCOL_MATURA_PPO_MINIMALZIEL_v2.md / originale Ausfuehrungslogs; in der gelieferten ZIP nicht vorhanden"
+  ]
+}

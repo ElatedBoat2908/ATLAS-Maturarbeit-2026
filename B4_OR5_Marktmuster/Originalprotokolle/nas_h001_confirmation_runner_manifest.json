@@ -1,0 +1,19 @@
+{
+  "2025_paths_accessed_before_runner_freeze": false,
+  "2026_holdout_accessed_before_runner_freeze": false,
+  "bootstrap_seed_rule": "SHA256(confirmation_analysis_version|CONFIRMATION_2025|OR5|ATLAS) -> uint32",
+  "census_events_sha256": "97d5bc99c91c16ae62a331db1691359eaca88deab88f6c1d18a26aa65dbfc486",
+  "confirmation_analysis_version": "NAS-H001-V1-CONFIRMATION-OR5-CONTINUATION-V1",
+  "confirmation_config_sha256": "9144f9f05e8cb4e67005dc229e31f0dc15059d7ff2eeaa6af55bd225184bf270",
+  "confirmation_contract_manifest_sha256": "742afacaaaeb59d53b7896c46360568c6be9158ac1907eb55f1f0df6d52348ee",
+  "confirmation_contract_operational_fingerprint": "e212745625286f5b1699224507ca5b5d4c9a62858e00bd4832ddbe776db53580",
+  "confirmation_market_data_cutoff_exclusive": "2026-01-01T00:00:00Z",
+  "confirmation_market_data_start_inclusive": "2025-01-01T00:00:00Z",
+  "confirmation_stage": "CONFIRMATION_2025",
+  "fallback_to_OR15_OR30": false,
+  "hypothesis": "NAS-H001-V1",
+  "phase": "0.7G.10",
+  "runner_source_sha256": "a26c377c38dccfb536e4fe911bb500eee3db63ad721a2f98ddf0676535b79e26",
+  "trade_outcomes_accessed_before_runner_freeze": false,
+  "validation_helper_source_sha256": "7c2e5014dde79db1716d00eab3183a71b4901e4a32879d45e554112554d6b835"
+}

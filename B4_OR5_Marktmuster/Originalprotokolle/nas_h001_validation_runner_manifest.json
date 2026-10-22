@@ -1,0 +1,16 @@
+{
+  "2026_holdout_accessed_before_runner_freeze": false,
+  "bootstrap_seed_rule": "SHA256(selected_analysis_version|stage|OR5|ATLAS) -> uint32",
+  "census_events_sha256": "97d5bc99c91c16ae62a331db1691359eaca88deab88f6c1d18a26aa65dbfc486",
+  "confirmation_2025_accessed_before_runner_freeze": false,
+  "hypothesis": "NAS-H001-V1",
+  "phase": "0.7G.8.1",
+  "runner_source_sha256": "7c2e5014dde79db1716d00eab3183a71b4901e4a32879d45e554112554d6b835",
+  "selected_analysis_version": "NAS-H001-V1-SELECTED-OR5-CONTINUATION-V1",
+  "selected_variant_config_sha256": "2d16ed7f9cf82c22992969f4ca67a9808f937f7f059b964711d4ac48a2e98a98",
+  "selected_variant_manifest_sha256": "b46f9dd350c65cf671e68e6723b84d144812b25d78e346cf462b0d1814a89f96",
+  "trade_outcomes_accessed_before_runner_freeze": false,
+  "validation_market_data_cutoff_exclusive": "2025-01-01T00:00:00Z",
+  "validation_market_data_start_inclusive": "2023-01-01T00:00:00Z",
+  "validation_stage": "VALIDATION_2023_2024"
+}

@@ -1,0 +1,131 @@
+{
+  "budget_id": "NAS100-BUDGET-1",
+  "calendar_session_count_2019_2025": 1760,
+  "confirmation_2025_outcomes_accessed": false,
+  "event_definition": "first complete M1 close strictly beyond the frozen OR high/low within 60 minutes after range end",
+  "final_2026_holdout_accessed": false,
+  "frozen_calendar": "XNYS_2019_2025_FROZEN_V1",
+  "frozen_chronology_for_future_path_research": {
+    "confirmation": "2025",
+    "development": "2019-2022",
+    "final_holdout": "2026+",
+    "validation": "2023-2024"
+  },
+  "future_path_after_first_break_inspected": false,
+  "hypothesis": "NAS-H001-V1",
+  "interpretation": "Event census only. OR5/OR15/OR30 are preregistered research variants. A record ends at the first close-outside break event. No bar after the event is inspected for continuation/failure, MFE/MAE, stop/target, R, PF or PnL.",
+  "m1_rows_read_pre2026": 2448155,
+  "opening_range_variants": [
+    "OR5",
+    "OR15",
+    "OR30"
+  ],
+  "operational_fingerprint": "d5561f18acf256af5a4439728c43468d5a701743f4713cf6ba36763962adac92",
+  "phase": "0.7G.4",
+  "pnl_inspected": false,
+  "r_inspected": false,
+  "research_cutoff_exclusive": "2026-01-01T00:00:00Z",
+  "scientific_gate": "PASS_TO_DEVELOPMENT_PATH_PLAN",
+  "stop_target_results_inspected": false,
+  "trade_outcomes_inspected": false,
+  "validation_2023_2024_outcomes_accessed": false,
+  "variants": {
+    "OR15": {
+      "break_events": 1728,
+      "calendar_sessions": 1760,
+      "development_events_2019_2022": 980,
+      "down_break_events": 836,
+      "event_rate_among_fully_observable_sessions": 0.9919632606199771,
+      "events_by_direction": {
+        "LONG": 892,
+        "SHORT": 836
+      },
+      "events_by_year": {
+        "2019": 244,
+        "2020": 242,
+        "2021": 249,
+        "2022": 245,
+        "2023": 250,
+        "2024": 250,
+        "2025": 248
+      },
+      "fully_observable_sessions": 1742,
+      "incomplete_sessions": 18,
+      "median_break_delay_minutes": 6.0,
+      "minimum_development_events_gate": 400,
+      "minimum_total_events_gate": 700,
+      "no_close_break_within_search": 14,
+      "p90_break_delay_minutes": 21.0,
+      "preferred_total_events": 1000,
+      "sample_gate": "PASS",
+      "up_break_events": 892
+    },
+    "OR30": {
+      "break_events": 1659,
+      "calendar_sessions": 1760,
+      "development_events_2019_2022": 937,
+      "down_break_events": 760,
+      "event_rate_among_fully_observable_sessions": 0.9534482758620689,
+      "events_by_direction": {
+        "LONG": 899,
+        "SHORT": 760
+      },
+      "events_by_year": {
+        "2019": 238,
+        "2020": 227,
+        "2021": 235,
+        "2022": 237,
+        "2023": 244,
+        "2024": 240,
+        "2025": 238
+      },
+      "fully_observable_sessions": 1740,
+      "incomplete_sessions": 20,
+      "median_break_delay_minutes": 6.0,
+      "minimum_development_events_gate": 400,
+      "minimum_total_events_gate": 700,
+      "no_close_break_within_search": 81,
+      "p90_break_delay_minutes": 31.0,
+      "preferred_total_events": 1000,
+      "sample_gate": "PASS",
+      "up_break_events": 899
+    },
+    "OR5": {
+      "break_events": 1739,
+      "calendar_sessions": 1760,
+      "development_events_2019_2022": 988,
+      "down_break_events": 871,
+      "event_rate_among_fully_observable_sessions": 0.9982778415614236,
+      "events_by_direction": {
+        "LONG": 868,
+        "SHORT": 871
+      },
+      "events_by_year": {
+        "2019": 244,
+        "2020": 245,
+        "2021": 251,
+        "2022": 248,
+        "2023": 250,
+        "2024": 252,
+        "2025": 249
+      },
+      "fully_observable_sessions": 1742,
+      "incomplete_sessions": 18,
+      "median_break_delay_minutes": 3.0,
+      "minimum_development_events_gate": 400,
+      "minimum_total_events_gate": 700,
+      "no_close_break_within_search": 3,
+      "p90_break_delay_minutes": 13.0,
+      "preferred_total_events": 1000,
+      "sample_gate": "PASS",
+      "up_break_events": 868
+    }
+  },
+  "variants_are_not_independent_and_not_pooled": true,
+  "variants_passing_sample_gate": [
+    "OR5",
+    "OR15",
+    "OR30"
+  ],
+  "wick_only_breaks_count": false
+}

@@ -1,0 +1,21 @@
+{
+  "count_trades": 1364,
+  "mean_R": -0.2713362448617743,
+  "win_rate_R_gt_0": 0.5256598240469208,
+  "profit_factor_R": 0.39349739921718435,
+  "exit_kinds": {
+    "STOP": 482,
+    "TARGET": 880,
+    "TIME": 2
+  },
+  "target_negative_results": 160,
+  "target_zero_results": 3,
+  "target_positive_results": 717,
+  "mean_R_TARGET": 0.22089667865362295,
+  "mean_R_STOP": -1.1682297232770373,
+  "check_against_report": {
+    "mean_cost_adjusted_R": 0.0,
+    "win_rate_R_gt_0": 0.0,
+    "profit_factor_R": 0.0
+  }
+}

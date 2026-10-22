@@ -1,0 +1,14 @@
+{
+  "2026_holdout_accessed_before_freeze": false,
+  "calendar_sha256": "3abf757f2824176c4a80f44c48aae9cc0d5df59d3d29514effcc014aeb145332",
+  "confirmation_2025_outcomes_accessed_before_freeze": false,
+  "detector_source_sha256": "28b10683d00acc9af22accf8f3f03a18e95a4bb582724eeb3d8ea6afc0389aa4",
+  "future_path_after_first_break_inspected_before_freeze": false,
+  "hypothesis": "NAS-H001-V1",
+  "operational_fingerprint": "d5561f18acf256af5a4439728c43468d5a701743f4713cf6ba36763962adac92",
+  "phase": "0.7G.4",
+  "pnl_inspected_before_freeze": false,
+  "policy_fingerprint": "28698461514391df0799c72a3c60612a3431063a6a7609f1545ef212d662eab9",
+  "trade_outcomes_inspected_before_freeze": false,
+  "validation_2023_2024_outcomes_accessed_before_freeze": false
+}

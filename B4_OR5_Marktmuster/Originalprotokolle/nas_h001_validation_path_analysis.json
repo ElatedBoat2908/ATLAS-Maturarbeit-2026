@@ -1,0 +1,81 @@
+{
+  "OR15_OR30_validation_accessed": false,
+  "bootstrap_lower95": 0.176,
+  "bootstrap_p_two_sided": 0.0001999600079984003,
+  "bootstrap_seed": 215289991,
+  "bootstrap_upper95": 0.33874239350912777,
+  "budget_id": "NAS100-BUDGET-1",
+  "confirmation_2025_paths_accessed": false,
+  "continuation_first": 316,
+  "eligible_complete_60m_paths": 502,
+  "failure_first": 186,
+  "fallback_to_nonselected_variant": false,
+  "final_2026_holdout_accessed": false,
+  "gate_checks": [
+    {
+      "name": "minimum_eligible_events",
+      "observed": 502,
+      "pass": true,
+      "required": 400
+    },
+    {
+      "name": "minimum_resolved_fraction",
+      "observed": 1.0,
+      "pass": true,
+      "required": 0.6
+    },
+    {
+      "name": "minimum_continuation_effect",
+      "observed": 0.2589641434262948,
+      "pass": true,
+      "required": 0.05
+    },
+    {
+      "name": "bootstrap_lower95_positive",
+      "observed": 0.176,
+      "pass": true,
+      "required": 0.0
+    },
+    {
+      "name": "positive_calendar_years",
+      "observed": 2,
+      "pass": true,
+      "required": 2
+    },
+    {
+      "name": "two_sided_week_block_p",
+      "observed": 0.0001999600079984003,
+      "pass": true,
+      "required": "< 0.05"
+    }
+  ],
+  "hypothesis": "NAS-H001-V1",
+  "ineligible_incomplete_60m_paths": 0,
+  "notes": [
+    "Only the preregistered OR5 continuation mechanism was validated.",
+    "OR15 and OR30 were not opened in validation and cannot rescue an OR5 failure.",
+    "2025 confirmation and 2026+ final holdout were not read.",
+    "This is still a market-path mechanism test, not an executable trading strategy test."
+  ],
+  "phase": "0.7G.8.1",
+  "positive_calendar_years": 2,
+  "primary_effect": 0.2589641434262948,
+  "resolved_fraction": 1.0,
+  "runner_manifest_sha256": "8bff3d5602e1f9dce476f8fadba99056b917778ff47e97f3408858d3a6cbcd38",
+  "runner_source_sha256": "7c2e5014dde79db1716d00eab3183a71b4901e4a32879d45e554112554d6b835",
+  "scientific_gate": "PASS_TO_CONFIRMATION_FREEZE",
+  "selected_mechanism": "ROBUST_CONTINUATION_CANDIDATE",
+  "selected_variant": "OR5",
+  "selected_variant_operational_fingerprint": "8bd6787c5c9c9df2dc81c8089cc300c8b6a57bedaae92850860404439219ca2b",
+  "trade_entry_stop_target_r_pf_pnl_inspected": false,
+  "unresolved": 0,
+  "validation_events_from_census": 502,
+  "validation_window": [
+    "2023-01-01T00:00:00+00:00",
+    "2025-01-01T00:00:00+00:00"
+  ],
+  "year_effects": {
+    "2023": 0.296,
+    "2024": 0.2222222222222222
+  }
+}

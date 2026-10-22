@@ -1,0 +1,4 @@
+﻿strategie,trade_datei,equity_datei,trades,winrate_prozent,avg_r,profit_factor,max_drawdown_prozent,startkapital_usd,endkapital_usd,equity_zeilen,tp_trades,stop_trades
+Trend-Pullback V1,v1_trades.parquet,v1_equity.parquet,572,39.16083916083916,0.17482517482517482,1.2854476303245543,-7.104894769165416,10000.0,16107.395285001096,99999,224,348
+Trend-Pullback V3,v3_trades.parquet,v3_equity.parquet,563,39.43161634103019,0.18294849023090587,1.2818397005879685,-6.419515692156678,100000.0,164548.40622000265,99999,222,341
+v3_exp_001_no_hour_9,v3_exp_001_no_hour_9_trades.parquet,v3_exp_001_no_hour_9_equity.parquet,520,40.38461538461539,0.21153846153846154,1.3392936181248183,-6.847391522738026,100000.0,170604.52271500326,99999,210,310

@@ -1,0 +1,16 @@
+{
+  "return_pct": -11.226863545387644,
+  "win_rate_pct": 47.99283154121864,
+  "max_drawdown_pct": -17.182084030800816,
+  "trades": 2790,
+  "long_actions": 3209,
+  "short_actions": 3682,
+  "flat_actions": 1857,
+  "final_equity": 0.8877313645461236,
+  "fold": 1,
+  "train_from": "2024-09-16 13:55:00+00:00",
+  "train_to": "2025-02-28 04:40:00+00:00",
+  "test_from": "2025-02-28 04:45:00+00:00",
+  "test_to": "2025-04-15 02:05:00+00:00",
+  "training_timesteps": 64118
+}

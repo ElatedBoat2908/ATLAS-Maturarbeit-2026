@@ -1,0 +1,25 @@
+{
+  "OR15_OR30_fallback_before_runner_freeze": false,
+  "analysis_version": "NAS-H001-V1-TRADE-RUNNER-V1",
+  "bootstrap_seed": 3091461262,
+  "census_events_sha256": "97d5bc99c91c16ae62a331db1691359eaca88deab88f6c1d18a26aa65dbfc486",
+  "entry_spread_audit_sha256": "9f6252f8cd12dd01ed7e9a83cc57120bbc08312514abcfe8b751a9dbc50cf50b",
+  "execution_cost_manifest_sha256": "1a4a671ab6f10192e0619e31280ab666fd0be21037cd72f58186b73f0032d1a8",
+  "execution_cost_report_sha256": "f96fb4044e8afe079fddb4381077c92134e8c4d9ba72398d7f55495f087112ee",
+  "final_2026_holdout_accessed_before_runner_freeze": false,
+  "hypothesis": "NAS-H001-V1",
+  "next_step": "RUN_FROZEN_2019_2025_EXECUTABLE_TRADE_RESEARCH_WITH_2026_STILL_LOCKED",
+  "parameter_search_before_runner_freeze": false,
+  "phase": "0.7G.13",
+  "research_window": [
+    "2019-01-01T00:00:00Z",
+    "2026-01-01T00:00:00Z"
+  ],
+  "runner_contract_sha256": "33f3aaa2d4a09ff44cb00aac82b36b60116c380893f39336995f2da7ba2c10e7",
+  "runner_script_sha256": "022c8682a208827d37791f8c4851f269e24f06b3530cc15ecb67048593a995db",
+  "runner_source_sha256": "19537a038373c06e8c8bea4e17a56cc389893f97fcbc29747fcf400eac57f197",
+  "selected_mechanism": "ROBUST_CONTINUATION_CANDIDATE",
+  "selected_variant": "OR5",
+  "trade_hypothesis_manifest_sha256": "dde92e879c473329160183de790489949af2e14efade93e63982acda450fed6d",
+  "trade_outcomes_accessed_before_runner_freeze": false
+}

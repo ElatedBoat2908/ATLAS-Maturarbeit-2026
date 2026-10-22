@@ -1,0 +1,196 @@
+{
+  "2026_plus_holdout_accessed": false,
+  "analysis_version": "NAS-H001-V1-TRADE-FAILURE-DIAGNOSTICS-V1",
+  "by_direction_DIAGNOSTIC_ONLY": {
+    "LONG": {
+      "mean_R": -0.22063008931527237,
+      "median_R": 0.06282339908263498,
+      "median_entry_progress_OR": 0.23602120535731036,
+      "median_entry_spread_over_risk": 0.12297190863743154,
+      "median_gross_reward_R_before_exit_cost": 0.3586567433233239,
+      "n": 618,
+      "target_rate_among_target_stop": 0.6136363636363636
+    },
+    "SHORT": {
+      "mean_R": -0.31334214851825976,
+      "median_R": -0.013239430035286583,
+      "median_entry_progress_OR": 0.18000000000029104,
+      "median_entry_spread_over_risk": 0.15725430548059288,
+      "median_gross_reward_R_before_exit_cost": 0.47059027071254744,
+      "n": 746,
+      "target_rate_among_target_stop": 0.6729222520107239
+    }
+  },
+  "by_year_DIAGNOSTIC_ONLY": {
+    "2019": {
+      "mean_R": -0.8983319807563909,
+      "median_R": -0.9600614439326589,
+      "median_entry_progress_OR": 0.2742946708464294,
+      "median_entry_spread_over_risk": 0.5012531328321076,
+      "median_gross_reward_R_before_exit_cost": 0.29149797570844466,
+      "n": 123,
+      "target_rate_among_target_stop": 0.5867768595041323
+    },
+    "2020": {
+      "mean_R": -0.2672838418370685,
+      "median_R": 0.02097902097902098,
+      "median_entry_progress_OR": 0.20876826722339684,
+      "median_entry_spread_over_risk": 0.1469387755102041,
+      "median_gross_reward_R_before_exit_cost": 0.4108983799705155,
+      "n": 185,
+      "target_rate_among_target_stop": 0.6486486486486487
+    },
+    "2021": {
+      "mean_R": -0.30319861005205356,
+      "median_R": 0.013199897930529433,
+      "median_entry_progress_OR": 0.2288480392156927,
+      "median_entry_spread_over_risk": 0.15157918922330468,
+      "median_gross_reward_R_before_exit_cost": 0.37202837533881944,
+      "n": 200,
+      "target_rate_among_target_stop": 0.62
+    },
+    "2022": {
+      "mean_R": -0.23978193583248653,
+      "median_R": 0.02631578947367917,
+      "median_entry_progress_OR": 0.19252873563229325,
+      "median_entry_spread_over_risk": 0.13592233009707297,
+      "median_gross_reward_R_before_exit_cost": 0.44398340248939855,
+      "n": 211,
+      "target_rate_among_target_stop": 0.6255924170616114
+    },
+    "2023": {
+      "mean_R": -0.11371067867413347,
+      "median_R": 0.13563249727384097,
+      "median_entry_progress_OR": 0.21206662489559044,
+      "median_entry_spread_over_risk": 0.140177657701899,
+      "median_gross_reward_R_before_exit_cost": 0.4043714440181916,
+      "n": 210,
+      "target_rate_among_target_stop": 0.7142857142857143
+    },
+    "2024": {
+      "mean_R": -0.25504176987102567,
+      "median_R": 0.03905540417740415,
+      "median_entry_progress_OR": 0.18604651162790697,
+      "median_entry_spread_over_risk": 0.13917884481556267,
+      "median_gross_reward_R_before_exit_cost": 0.4576271186440678,
+      "n": 215,
+      "target_rate_among_target_stop": 0.6186046511627907
+    },
+    "2025": {
+      "mean_R": -0.09187890956210214,
+      "median_R": 0.16759718967619325,
+      "median_entry_progress_OR": 0.18535539215700725,
+      "median_entry_spread_over_risk": 0.0958927203065008,
+      "median_gross_reward_R_before_exit_cost": 0.4591026104494669,
+      "n": 220,
+      "target_rate_among_target_stop": 0.6818181818181818
+    }
+  },
+  "eligibility_geometry": {
+    "geometry_reject_fraction_of_all_candidates": 0.21564117308798159,
+    "geometry_rejects": 375,
+    "ineligible_total": 375,
+    "interpretation": "These candidates had already advanced so far that the frozen target was no longer strictly favorable to the executable next-bar entry."
+  },
+  "fixed_geometry_bins_DIAGNOSTIC_ONLY": {
+    "0.00_TO_<0.10_OR": {
+      "mean_R": -0.21878168777062013,
+      "median_R": 0.34967320261455004,
+      "median_entry_progress_OR": 0.06505469199777326,
+      "median_entry_spread_over_risk": 0.12996389891694704,
+      "median_gross_reward_R_before_exit_cost": 0.7697401935810149,
+      "n": 247,
+      "target_rate_among_target_stop": 0.5222672064777328
+    },
+    "0.10_TO_<0.25_OR": {
+      "mean_R": -0.23287899080508112,
+      "median_R": 0.22151724269021392,
+      "median_entry_progress_OR": 0.1681852774318402,
+      "median_entry_spread_over_risk": 0.13603598341023648,
+      "median_gross_reward_R_before_exit_cost": 0.49659089148190566,
+      "n": 548,
+      "target_rate_among_target_stop": 0.623400365630713
+    },
+    "0.25_TO_<0.40_OR": {
+      "mean_R": -0.3683335545134581,
+      "median_R": 0.02013422818826232,
+      "median_entry_progress_OR": 0.3193160813310387,
+      "median_entry_spread_over_risk": 0.14883720930242633,
+      "median_gross_reward_R_before_exit_cost": 0.22053017484464243,
+      "n": 405,
+      "target_rate_among_target_stop": 0.6905940594059405
+    },
+    "0.40_TO_<0.50_OR": {
+      "mean_R": -0.2530337432548514,
+      "median_R": -0.029693486590167486,
+      "median_entry_progress_OR": 0.44961977186290225,
+      "median_entry_spread_over_risk": 0.1386138613861336,
+      "median_gross_reward_R_before_exit_cost": 0.05305305305329218,
+      "n": 153,
+      "target_rate_among_target_stop": 0.8169934640522876
+    },
+    "ENTRY_INSIDE_BROKEN_BOUNDARY_<0.00": {
+      "mean_R": -0.05060198681725114,
+      "median_R": 0.7769516728620849,
+      "median_entry_progress_OR": -0.024466192170790574,
+      "median_entry_spread_over_risk": 0.1798561151078713,
+      "median_gross_reward_R_before_exit_cost": 1.102899906454507,
+      "n": 11,
+      "target_rate_among_target_stop": 0.5454545454545454
+    }
+  },
+  "hypothesis": "NAS-H001-V1",
+  "new_filter_selection": false,
+  "new_parameter_search": false,
+  "new_trade_hypothesis_selected": false,
+  "payoff_geometry": {
+    "actual_minus_required_target_probability": -0.19487292128174016,
+    "mean_R_stop_exit": -1.1682297232770373,
+    "mean_R_target_exit": 0.22089667865362295,
+    "mean_stop_R_beyond_minus_one": 0.16822972327703725,
+    "mean_target_R_haircut_vs_gross_reward_R": 0.17293636815429064,
+    "median_R_stop_exit": -1.0736437285023015,
+    "median_R_target_exit": 0.233781845223057,
+    "median_entry_progress_OR": 0.20808232931720702,
+    "median_entry_slippage_over_initial_risk": 0.03454171559595553,
+    "median_entry_spread_over_initial_risk": 0.13816686238382211,
+    "median_exit_slippage_over_initial_risk": 0.034482758620685665,
+    "median_exit_spread_over_initial_risk": 0.13793103448274266,
+    "median_gross_reward_R_before_exit_cost": 0.4122653316647043,
+    "p10_gross_reward_R_before_exit_cost": 0.09711256485449048,
+    "p90_entry_progress_OR": 0.4114837017609674,
+    "positive_R_fraction_all_executed": 0.5256598240469208,
+    "positive_R_fraction_of_target_exits": 0.8147727272727273,
+    "required_target_probability_from_observed_average_target_stop_R": 0.8409815850115493,
+    "stop_exits": 482,
+    "target_exits": 880,
+    "target_rate_among_target_stop": 0.6461086637298091,
+    "time_exits": 2
+  },
+  "phase": "0.7G.14",
+  "prior_frozen_result": {
+    "bootstrap_lower95": -0.31288071720936184,
+    "bootstrap_upper95": -0.2305432880777544,
+    "candidates": 1739,
+    "executed_trades": 1364,
+    "mean_R": -0.2713362448617743,
+    "positive_years": 0,
+    "profit_factor_R": 0.39349739921718435,
+    "status": "REJECT_EXECUTABLE_MAPPING_V1_WITHOUT_OPENING_2026"
+  },
+  "scientific_interpretation": {
+    "2026_policy": "KEEP_LOCKED",
+    "diagnostic_use_only": "The bins and subgroup summaries may explain failure but must not be converted directly into filters or thresholds and retested as if they were pre-registered evidence.",
+    "next_research_question": "Whether one mechanism-faithful executable mapping can preserve the confirmed CLOSE-based acceptance signal without the fixed-target reward compression of V1.",
+    "reason": "The bootstrap interval is entirely negative, every calendar year is negative, and PF_R is far below 1. The confirmed close-based continuation mechanism therefore did not survive this next-open fixed-barrier executable translation.",
+    "v1_rejection_strength": "STRUCTURAL_NOT_BORDERLINE"
+  },
+  "scope": "POST_HOC_FAILURE_DIAGNOSTICS_ONLY__2019_2025_ALREADY_OPENED",
+  "semantic_mapping_audit": {
+    "confirmed_mechanism_price_basis": "COMPLETE_M1_CLOSE_ONLY",
+    "executable_mapping_barrier_trigger_basis": "CANONICAL_M1_BID_HIGH_LOW",
+    "interpretation": "The confirmed mechanism is close-based, while executable V1 uses intrabar high/low touches. This is a deliberate execution translation, not a coding error, but it means V1 is not a literal execution of the confirmed close-based statistic.",
+    "same_basis": false
+  },
+  "status": "V1_REJECTED__FAILURE_DIAGNOSTICS_COMPLETE__KEEP_2026_LOCKED"
+}

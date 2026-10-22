@@ -1,0 +1,213 @@
+{
+  "OR15_OR30_fallback_used": false,
+  "account": {
+    "company": "GBE brokers Ltd",
+    "currency": "EUR",
+    "server": "GBEbrokers-Demo"
+  },
+  "analysis_version": "NAS-H001-V1-EXECUTION-COST-CALIBRATION-V1",
+  "broker_symbol": "USTEC.c",
+  "calibration_source_sha256": "229e74d8daf3090b26a6b7828d583f109b158769aab0634195d2e0dc6c106e53",
+  "census_events_sha256": "97d5bc99c91c16ae62a331db1691359eaca88deab88f6c1d18a26aa65dbfc486",
+  "commission": {
+    "median_price_per_side": 0.0,
+    "p90_price_per_side": 0.0,
+    "reason": "resolved from preregistered authoritative current GBE index-CFD schedule because usable pre-2026 USTEC.c deal evidence was insufficient",
+    "resolved": true,
+    "scope": "current deployable GBE index-CFD commission schedule; historical spread remains bar-specific",
+    "source_title": "GBE brokers - Trade CFD indices / trading accounts",
+    "source_type": "AUTHORITATIVE_CURRENT_GBE_INDEX_CFD_SCHEDULE",
+    "source_url": "https://gbebrokers.com/en/products/trade-indices",
+    "source_verified_date": "2026-08-20",
+    "usable_deals": 0,
+    "zero_commission_confirmed": true
+  },
+  "decision": "PASS_TO_2019_2025_TRADE_RUNNER_FREEZE",
+  "entry_bid_open_read": false,
+  "entry_spread_by_year": {
+    "2019": {
+      "coverage": 1.0,
+      "events": 244,
+      "spread_points": {
+        "max": 300.0,
+        "median": 200.0,
+        "p75": 280.0,
+        "p90": 280.0,
+        "p95": 280.0
+      },
+      "spread_price": {
+        "max": 3.0,
+        "median": 2.0,
+        "p75": 2.8000000000000003,
+        "p90": 2.8000000000000003,
+        "p95": 2.8000000000000003
+      },
+      "valid_spreads": 244
+    },
+    "2020": {
+      "coverage": 1.0,
+      "events": 245,
+      "spread_points": {
+        "max": 200.0,
+        "median": 90.0,
+        "p75": 90.0,
+        "p90": 200.0,
+        "p95": 200.0
+      },
+      "spread_price": {
+        "max": 2.0,
+        "median": 0.9,
+        "p75": 0.9,
+        "p90": 2.0,
+        "p95": 2.0
+      },
+      "valid_spreads": 245
+    },
+    "2021": {
+      "coverage": 1.0,
+      "events": 251,
+      "spread_points": {
+        "max": 190.0,
+        "median": 90.0,
+        "p75": 90.0,
+        "p90": 90.0,
+        "p95": 90.0
+      },
+      "spread_price": {
+        "max": 1.9000000000000001,
+        "median": 0.9,
+        "p75": 0.9,
+        "p90": 0.9,
+        "p95": 0.9
+      },
+      "valid_spreads": 251
+    },
+    "2022": {
+      "coverage": 1.0,
+      "events": 248,
+      "spread_points": {
+        "max": 140.0,
+        "median": 120.0,
+        "p75": 140.0,
+        "p90": 140.0,
+        "p95": 140.0
+      },
+      "spread_price": {
+        "max": 1.4000000000000001,
+        "median": 1.2,
+        "p75": 1.4000000000000001,
+        "p90": 1.4000000000000001,
+        "p95": 1.4000000000000001
+      },
+      "valid_spreads": 248
+    },
+    "2023": {
+      "coverage": 1.0,
+      "events": 250,
+      "spread_points": {
+        "max": 100.0,
+        "median": 90.0,
+        "p75": 90.0,
+        "p90": 100.0,
+        "p95": 100.0
+      },
+      "spread_price": {
+        "max": 1.0,
+        "median": 0.9,
+        "p75": 0.9,
+        "p90": 1.0,
+        "p95": 1.0
+      },
+      "valid_spreads": 250
+    },
+    "2024": {
+      "coverage": 1.0,
+      "events": 252,
+      "spread_points": {
+        "max": 100.0,
+        "median": 100.0,
+        "p75": 100.0,
+        "p90": 100.0,
+        "p95": 100.0
+      },
+      "spread_price": {
+        "max": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p90": 1.0,
+        "p95": 1.0
+      },
+      "valid_spreads": 252
+    },
+    "2025": {
+      "coverage": 1.0,
+      "events": 249,
+      "spread_points": {
+        "max": 100.0,
+        "median": 80.0,
+        "p75": 90.0,
+        "p90": 100.0,
+        "p95": 100.0
+      },
+      "spread_price": {
+        "max": 1.0,
+        "median": 0.8,
+        "p75": 0.9,
+        "p90": 1.0,
+        "p95": 1.0
+      },
+      "valid_spreads": 249
+    }
+  },
+  "entry_spread_coverage": 1.0,
+  "entry_spread_invalid_or_missing": 0,
+  "entry_spread_points": {
+    "max": 300.0,
+    "median": 100.0,
+    "p75": 120.0,
+    "p90": 200.0,
+    "p95": 200.0
+  },
+  "entry_spread_price": {
+    "max": 3.0,
+    "median": 1.0,
+    "p75": 1.2,
+    "p90": 2.0,
+    "p95": 2.0
+  },
+  "entry_spread_valid": 1739,
+  "final_2026_holdout_accessed": false,
+  "frozen_cost_semantics": {
+    "baseline_slippage": "max(1 * symbol_point, 0.25 * contemporaneous_spread_price)",
+    "commission_price_per_side": 0.0,
+    "commission_source": "AUTHORITATIVE_CURRENT_GBE_INDEX_CFD_SCHEDULE",
+    "entry_spread_source": "CANONICAL_NAS100_M1_SPREAD_COLUMN_AT_FROZEN_AVAILABLE_AT_ENTRY_TIMESTAMP",
+    "exit_spread_source": "CANONICAL_NAS100_M1_SPREAD_COLUMN_AT_EVENTUAL_EXIT_TIMESTAMP",
+    "spread_price_conversion": "spread_points * symbol_point",
+    "stress_slippage": "max(1 * symbol_point, 0.50 * contemporaneous_spread_price)"
+  },
+  "hypothesis": "NAS-H001-V1",
+  "minimum_entry_spread_coverage": 0.99,
+  "or5_frozen_entry_events": 1739,
+  "parameter_search_performed": false,
+  "phase": "0.7G.12",
+  "policy_sha256": "cfe69461376650f14e29d0107eb99ebfe0c975b0dc4a64360c838911e28488c1",
+  "post_entry_OHLC_read": false,
+  "ready_to_freeze_trade_runner": true,
+  "research_window": [
+    "2019-01-01T00:00:00Z",
+    "2026-01-01T00:00:00Z"
+  ],
+  "symbol": {
+    "digits": 2,
+    "point": 0.01,
+    "trade_contract_size": 1.0,
+    "trade_tick_size": 0.01,
+    "trade_tick_value_account_currency": 0.01,
+    "volume_min": 0.1,
+    "volume_step": 0.1
+  },
+  "trade_R_PF_PnL_read": false,
+  "trade_hypothesis_manifest_sha256": "dde92e879c473329160183de790489949af2e14efade93e63982acda450fed6d",
+  "trade_stop_target_result_read": false
+}

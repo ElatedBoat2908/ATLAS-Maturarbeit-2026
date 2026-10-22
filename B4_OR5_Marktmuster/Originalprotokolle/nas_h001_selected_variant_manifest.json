@@ -1,0 +1,36 @@
+{
+  "2026_holdout_accessed_before_freeze": false,
+  "analysis_version": "NAS-H001-V1-SELECTED-OR5-CONTINUATION-V1",
+  "config_sha256": "2d16ed7f9cf82c22992969f4ca67a9808f937f7f059b964711d4ac48a2e98a98",
+  "confirmation_paths_accessed_before_freeze": false,
+  "confirmation_window": [
+    "2025-01-01T00:00:00Z",
+    "2026-01-01T00:00:00Z"
+  ],
+  "development_bootstrap_lower95": 0.21334347492082578,
+  "development_bootstrap_upper95": 0.34239815486521147,
+  "development_eligible_events": 988,
+  "development_event_paths_sha256": "81232461e6c027fbbdd2615a208306006ba0e94f717ee2d6d3b3f28f83beddfd",
+  "development_observed_effect": 0.2783400809716599,
+  "development_report_sha256": "8550ed12d42fad80e5e20a5bdaf696796d9985d1e94b2d9826ac2c55d0f5925e",
+  "development_runner_manifest_sha256": "3f859516bc5ee12be0cf9589f290dd5b836c32f72ee3db141b17c87f28ee7bfc",
+  "development_year_effects": {
+    "2019": 0.26639344262295084,
+    "2020": 0.2979591836734694,
+    "2021": 0.2589641434262948,
+    "2022": 0.2903225806451613
+  },
+  "fallback_to_nonselected_variant": false,
+  "final_holdout_start": "2026-01-01T00:00:00Z",
+  "hypothesis": "NAS-H001-V1",
+  "operational_fingerprint": "8bd6787c5c9c9df2dc81c8089cc300c8b6a57bedaae92850860404439219ca2b",
+  "path_plan_manifest_sha256": "632f93f4122f4e1c71243203da9bb693ae07127146b5b6597acd5614216b3acf",
+  "selected_mechanism": "ROBUST_CONTINUATION_CANDIDATE",
+  "selected_variant": "OR5",
+  "trade_outcomes_accessed_before_freeze": false,
+  "validation_paths_accessed_before_freeze": false,
+  "validation_window": [
+    "2023-01-01T00:00:00Z",
+    "2025-01-01T00:00:00Z"
+  ]
+}

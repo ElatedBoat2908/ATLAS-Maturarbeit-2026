@@ -1,0 +1,32 @@
+{
+  "2026_holdout_accessed_before_freeze": false,
+  "analysis_version": "NAS-H001-V1-CONFIRMATION-OR5-CONTINUATION-V1",
+  "config_sha256": "9144f9f05e8cb4e67005dc229e31f0dc15059d7ff2eeaa6af55bd225184bf270",
+  "confirmation_paths_accessed_before_freeze": false,
+  "confirmation_window": [
+    "2025-01-01T00:00:00Z",
+    "2026-01-01T00:00:00Z"
+  ],
+  "fallback_to_nonselected_variant": false,
+  "final_holdout_start": "2026-01-01T00:00:00Z",
+  "hypothesis": "NAS-H001-V1",
+  "operational_fingerprint": "e212745625286f5b1699224507ca5b5d4c9a62858e00bd4832ddbe776db53580",
+  "phase": "0.7G.9",
+  "selected_mechanism": "ROBUST_CONTINUATION_CANDIDATE",
+  "selected_variant": "OR5",
+  "selected_variant_config_sha256": "2d16ed7f9cf82c22992969f4ca67a9808f937f7f059b964711d4ac48a2e98a98",
+  "selected_variant_manifest_sha256": "b46f9dd350c65cf671e68e6723b84d144812b25d78e346cf462b0d1814a89f96",
+  "selected_variant_operational_fingerprint": "8bd6787c5c9c9df2dc81c8089cc300c8b6a57bedaae92850860404439219ca2b",
+  "trade_outcomes_accessed_before_freeze": false,
+  "validation_bootstrap_lower95": 0.176,
+  "validation_bootstrap_upper95": 0.33874239350912777,
+  "validation_eligible_events": 502,
+  "validation_event_paths_sha256": "570a43723c1387a50fc61e215a8b878cde0407df76443e73b15cdda70a55936d",
+  "validation_observed_effect": 0.2589641434262948,
+  "validation_report_sha256": "0f24d81e3db55dddee9a9b4a50ac344ebe36c2acfd30ebfcfaf8c204e1dfb213",
+  "validation_runner_manifest_sha256": "8bff3d5602e1f9dce476f8fadba99056b917778ff47e97f3408858d3a6cbcd38",
+  "validation_year_effects": {
+    "2023": 0.296,
+    "2024": 0.2222222222222222
+  }
+}

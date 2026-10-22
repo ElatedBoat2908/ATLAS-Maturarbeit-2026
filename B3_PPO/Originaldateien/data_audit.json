@@ -1,0 +1,37 @@
+{
+  "raw_rows": 100000,
+  "deduplicated_rows": 100000,
+  "raw_from": "2024-09-16 12:15:00+00:00",
+  "raw_to": "2026-04-15 19:45:00+00:00",
+  "dataset_sha256": "4edc1117beb9f38badc3cdf028318b36b3144bef3af594932d37cf76c9b636c7",
+  "abnormal_gap_threshold_days": 7.0,
+  "abnormal_gaps": [
+    {
+      "from": "2025-07-16 10:40:00+00:00",
+      "to": "2025-09-09 14:35:00+00:00",
+      "gap_days": 55.16319444444444
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": 0,
+      "rows": 58327,
+      "from": "2024-09-16 12:15:00+00:00",
+      "to": "2025-07-16 10:40:00+00:00",
+      "selected": true
+    },
+    {
+      "segment_id": 1,
+      "rows": 41673,
+      "from": "2025-09-09 14:35:00+00:00",
+      "to": "2026-04-15 19:45:00+00:00",
+      "selected": false
+    }
+  ],
+  "selection_rule": "longest segment by row count; tie -> earliest segment",
+  "selected_segment_id": 0,
+  "selected_rows_before_feature_warmup": 58327,
+  "selected_from": "2024-09-16 12:15:00+00:00",
+  "selected_to": "2025-07-16 10:40:00+00:00",
+  "rows_after_causal_feature_warmup": 58326
+}

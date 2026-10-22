@@ -1,0 +1,50 @@
+[
+  {
+    "return_pct": -11.226863545387644,
+    "win_rate_pct": 47.99283154121864,
+    "max_drawdown_pct": -17.182084030800816,
+    "trades": 2790,
+    "long_actions": 3209,
+    "short_actions": 3682,
+    "flat_actions": 1857,
+    "final_equity": 0.8877313645461236,
+    "fold": 1,
+    "train_from": "2024-09-16 13:55:00+00:00",
+    "train_to": "2025-02-28 04:40:00+00:00",
+    "test_from": "2025-02-28 04:45:00+00:00",
+    "test_to": "2025-04-15 02:05:00+00:00",
+    "training_timesteps": 64118
+  },
+  {
+    "return_pct": 9.920987119509173,
+    "win_rate_pct": 50.132802124834,
+    "max_drawdown_pct": -7.013679348148816,
+    "trades": 1506,
+    "long_actions": 5435,
+    "short_actions": 1698,
+    "flat_actions": 1615,
+    "final_equity": 1.0992098711950917,
+    "fold": 2,
+    "train_from": "2024-09-16 13:55:00+00:00",
+    "train_to": "2025-04-15 02:05:00+00:00",
+    "test_from": "2025-04-15 02:10:00+00:00",
+    "test_to": "2025-05-30 06:45:00+00:00",
+    "training_timesteps": 81616
+  },
+  {
+    "return_pct": -3.5908687933437933,
+    "win_rate_pct": 48.50187265917603,
+    "max_drawdown_pct": -5.644654132907445,
+    "trades": 4272,
+    "long_actions": 3646,
+    "short_actions": 2591,
+    "flat_actions": 2511,
+    "final_equity": 0.9640913120665621,
+    "fold": 3,
+    "train_from": "2024-09-16 13:55:00+00:00",
+    "train_to": "2025-05-30 06:45:00+00:00",
+    "test_from": "2025-05-30 06:50:00+00:00",
+    "test_to": "2025-07-16 10:40:00+00:00",
+    "training_timesteps": 99114
+  }
+]

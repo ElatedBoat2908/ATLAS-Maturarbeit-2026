@@ -1,0 +1,47 @@
+{
+  "analysis_version": "NAS-H001-V1-DEVELOPMENT-PATH-V1",
+  "census_events_sha256": "97d5bc99c91c16ae62a331db1691359eaca88deab88f6c1d18a26aa65dbfc486",
+  "census_manifest_sha256": "0902115677af7c038c22b488b7b7ad918cb84e97df1808b88a35bd88dc8ec003",
+  "census_report_sha256": "90c7fc8084690c23dd2392d674f668d5a62ebc7fbf2087cb79636d3c19999050",
+  "confirmation_2025_paths_accessed_before_freeze": false,
+  "final_2026_holdout_accessed_before_freeze": false,
+  "frozen_development_gates": {
+    "bootstrap_interval_must_exclude_zero": true,
+    "holm_adjusted_alpha_across_three_variants": 0.05,
+    "minimum_absolute_effect": 0.05,
+    "minimum_eligible_events": 400,
+    "minimum_resolved_fraction": 0.6,
+    "minimum_same_sign_calendar_years": 3
+  },
+  "frozen_primary_mechanism": {
+    "barrier_multiple": 0.5,
+    "effect": "P(CONTINUATION_FIRST) - P(FAILURE_FIRST), unresolved scored 0",
+    "horizon_minutes": 60,
+    "long_continuation": "close >= OR_HIGH + 0.5*OR_WIDTH",
+    "long_failure": "close <= OR_HIGH - 0.5*OR_WIDTH",
+    "normalizer": "OPENING_RANGE_WIDTH",
+    "path_start": "NEXT_COMPLETE_M1_BAR_AFTER_BREAK_EVENT_AVAILABLE_AT",
+    "price_basis": "COMPLETE_M1_CLOSE_ONLY",
+    "reason": "Uses material close-based acceptance distances on both sides of the broken OR boundary; mere wick or immediate microscopic re-entry is not enough.",
+    "score_continuation": 1,
+    "score_failure": -1,
+    "score_unresolved": 0,
+    "short_continuation": "close <= OR_LOW - 0.5*OR_WIDTH",
+    "short_failure": "close >= OR_LOW + 0.5*OR_WIDTH"
+  },
+  "frozen_selection_rule": {
+    "eligible_variants": "must pass every development gate including Holm",
+    "selected_variants": 1,
+    "selection_does_not_open_validation": true,
+    "selection_metric": "LARGEST_95CI_DISTANCE_FROM_ZERO",
+    "tie_break_1": "higher resolved event count",
+    "tie_break_2": "shorter opening-range duration"
+  },
+  "hypothesis": "NAS-H001-V1",
+  "operational_fingerprint": "01f73d1b807ecc63e6c34e81f0909b0c9892f0bd9c8afe73bdf1181873ca1e82",
+  "phase": "0.7G.5",
+  "plan_sha256": "648029a4c2a758da8fcd83008634bf77ffaabbb91b1fd07a72b90fc424f972db",
+  "post_break_development_paths_inspected_before_freeze": false,
+  "trade_outcomes_or_pnl_inspected_before_freeze": false,
+  "validation_2023_2024_paths_accessed_before_freeze": false
+}

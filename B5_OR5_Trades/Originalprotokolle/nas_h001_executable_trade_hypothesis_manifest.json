@@ -1,0 +1,23 @@
+{
+  "2026_holdout_accessed_before_freeze": false,
+  "analysis_version": "NAS-H001-V1-EXECUTABLE-TRADE-HYPOTHESIS-V1",
+  "config_sha256": "5b56834442ab716e5e48c4104453e7298a5be9b53f6823a106f54379fdc98c20",
+  "confirmation_bootstrap_lower95": 0.20647451963241437,
+  "confirmation_bootstrap_upper95": 0.44313725490196076,
+  "confirmation_contract_manifest_sha256": "742afacaaaeb59d53b7896c46360568c6be9158ac1907eb55f1f0df6d52348ee",
+  "confirmation_contract_operational_fingerprint": "e212745625286f5b1699224507ca5b5d4c9a62858e00bd4832ddbe776db53580",
+  "confirmation_eligible_events": 249,
+  "confirmation_event_paths_sha256": "8d59f15d788f30c3efddf0f97f3ab7c70d13d9b965499cd45d9b95c0771904e8",
+  "confirmation_observed_effect": 0.3333333333333333,
+  "confirmation_report_sha256": "d54ae5dc887e985325bb7fdade04fa474d4e5ed8c7e7a126257d5d8b4a07c89f",
+  "confirmation_runner_manifest_sha256": "100d874324c4bc3d5b4a2b419b7a9a5cdf00d83efa848af5051d6cc38f3f47bb",
+  "execution_calibration_required_next": true,
+  "fallback_to_nonselected_variant": false,
+  "hypothesis": "NAS-H001-V1",
+  "operational_fingerprint": "9327baecff0f8c9aba4d03a27e762837a7a5d2c2d1e6477281a9fe3c9a7be1d3",
+  "parameter_search_before_freeze": false,
+  "phase": "0.7G.11",
+  "selected_mechanism": "ROBUST_CONTINUATION_CANDIDATE",
+  "selected_variant": "OR5",
+  "trade_outcomes_accessed_before_freeze": false
+}

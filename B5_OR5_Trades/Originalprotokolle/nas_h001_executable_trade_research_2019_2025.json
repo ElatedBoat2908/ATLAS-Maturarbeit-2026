@@ -1,0 +1,112 @@
+{
+  "OR15_OR30_fallback_used": false,
+  "analysis_version": "NAS-H001-V1-TRADE-RUNNER-V1",
+  "bootstrap_mean_R": {
+    "lower95": -0.31288071720936184,
+    "mean": -0.2713362448617743,
+    "upper95": -0.2305432880777544
+  },
+  "candidate_count": 1739,
+  "direction_diagnostics": {
+    "LONG": {
+      "mean_R": -0.22063008931527237,
+      "n": 618,
+      "stress_mean_R": -0.2761676449199854
+    },
+    "SHORT": {
+      "mean_R": -0.31334214851825976,
+      "n": 746,
+      "stress_mean_R": -0.3850135741842459
+    }
+  },
+  "executed_trades": 1364,
+  "exit_kinds": {
+    "STOP": 482,
+    "TARGET": 880,
+    "TIME": 2
+  },
+  "final_2026_holdout_accessed": false,
+  "gate_checks": [
+    {
+      "name": "minimum_executed_trades",
+      "observed": 1364,
+      "pass": true,
+      "required": 1000
+    },
+    {
+      "name": "minimum_mean_cost_adjusted_R",
+      "observed": -0.2713362448617743,
+      "pass": false,
+      "required": 0.05
+    },
+    {
+      "name": "bootstrap_lower95_positive",
+      "observed": -0.31288071720936184,
+      "pass": false,
+      "required": 0.0
+    },
+    {
+      "name": "minimum_profit_factor_R",
+      "observed": 0.39349739921718435,
+      "pass": false,
+      "required": 1.1
+    },
+    {
+      "name": "minimum_positive_calendar_years",
+      "observed": 0,
+      "pass": false,
+      "required": 5
+    },
+    {
+      "name": "minimum_2019_2022_mean_R",
+      "observed": -0.37715723900411563,
+      "pass": false,
+      "required": 0.0
+    },
+    {
+      "name": "minimum_2023_2025_mean_R",
+      "observed": -0.1533745475155055,
+      "pass": false,
+      "required": 0.0
+    },
+    {
+      "name": "minimum_stress_mean_R",
+      "observed": -0.33569774992815127,
+      "pass": false,
+      "required": 0.0
+    }
+  ],
+  "hypothesis": "NAS-H001-V1",
+  "ineligible_by_reason": {
+    "NO_TRADE_INEXECUTABLE_GEOMETRY": 375
+  },
+  "ineligible_count": 375,
+  "interpretation": "Research viability test of one frozen executable mapping. 2019-2025 are not an independent trade-edge confirmation because they were used to discover/confirm the market mechanism. A pass only permits freezing a separate 2026+ final-holdout contract.",
+  "mean_R_2019_2022": -0.37715723900411563,
+  "mean_R_2023_2025": -0.1533745475155055,
+  "mean_cost_adjusted_R": -0.2713362448617743,
+  "median_R": 0.02726715686286993,
+  "parameter_search_used": false,
+  "phase": "0.7G.13",
+  "positive_calendar_years": 0,
+  "profit_factor_R": 0.39349739921718435,
+  "runner_operational_fingerprint": "4403c61d470ca9a0786886120a5ec0f236e70c09b2f10d2d8e70386185f186ae",
+  "same_bar_stop_target_count": 2,
+  "scientific_gate": "REJECT_EXECUTABLE_MAPPING_V1_WITHOUT_OPENING_2026",
+  "stress_mean_R": -0.33569774992815127,
+  "total_R": -370.10263799146014,
+  "win_rate_R_gt_0": 0.5256598240469208,
+  "window": [
+    "2019-01-01T00:00:00Z",
+    "2026-01-01T00:00:00Z"
+  ],
+  "year_mean_R": {
+    "2019": -0.8983319807563909,
+    "2020": -0.2672838418370685,
+    "2021": -0.30319861005205356,
+    "2022": -0.23978193583248653,
+    "2023": -0.11371067867413347,
+    "2024": -0.25504176987102567,
+    "2025": -0.09187890956210214
+  }
+}

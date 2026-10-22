@@ -1,0 +1,510 @@
+{
+  "analysis_version": "NAS-H001-V1-DEVELOPMENT-PATH-V1",
+  "budget_id": "NAS100-BUDGET-1",
+  "confirmation_2025_paths_accessed": false,
+  "development_events_from_census": 2905,
+  "development_window": [
+    "2019-01-01T00:00:00+00:00",
+    "2023-01-01T00:00:00+00:00"
+  ],
+  "eligible_complete_60m_paths": 2902,
+  "final_2026_holdout_accessed": false,
+  "holm_family": [
+    "OR5",
+    "OR15",
+    "OR30"
+  ],
+  "hypothesis": "NAS-H001-V1",
+  "ineligible_incomplete_60m_paths": 3,
+  "market_data_cutoff_exclusive": "2023-01-01T00:00:00+00:00",
+  "notes": [
+    "OR5/OR15/OR30 remain separate and were Holm-corrected as one three-test family.",
+    "Unresolved events are scored 0 in the primary effect exactly as preregistered.",
+    "No executable trade, cost model, stop, target, R, PF or PnL is inferred from this market-mechanism test.",
+    "If no variant passes, 2023-2025 remains locked and NAS-H001-V1 ends without a trade hypothesis."
+  ],
+  "path_plan_manifest_sha256": "632f93f4122f4e1c71243203da9bb693ae07127146b5b6597acd5614216b3acf",
+  "path_plan_operational_fingerprint": "01f73d1b807ecc63e6c34e81f0909b0c9892f0bd9c8afe73bdf1181873ca1e82",
+  "phase": "0.7G.6",
+  "primary_mechanism": "0.5 OR-width close barrier first within 60m, starting next M1 bar",
+  "runner_manifest_sha256": "3f859516bc5ee12be0cf9589f290dd5b836c32f72ee3db141b17c87f28ee7bfc",
+  "runner_source_sha256": "b46216bca97968f875582faf0155d17e90131c24dce54206902efff74024c78f",
+  "scientific_gate": "PASS_TO_VARIANT_FREEZE_BEFORE_VALIDATION",
+  "secondary_diagnostics_may_rescue_primary": false,
+  "selected_mechanism": "ROBUST_CONTINUATION_CANDIDATE",
+  "selected_variant": "OR5",
+  "trade_entry_stop_target_r_pf_pnl_inspected": false,
+  "validation_2023_2024_paths_accessed": false,
+  "variants": {
+    "OR15": {
+      "bootstrap_lower95": 0.15670008704680602,
+      "bootstrap_p_two_sided_unadjusted": 0.0001999600079984003,
+      "bootstrap_seed": 2881659272,
+      "bootstrap_upper95": 0.28294945116481635,
+      "ci_distance_from_zero": 0.15670008704680602,
+      "continuation_first": 587,
+      "directional_event_counts": {
+        "LONG": 504,
+        "SHORT": 475
+      },
+      "eligible_events": 979,
+      "failure_first": 370,
+      "gate_checks": [
+        {
+          "name": "minimum_eligible_events",
+          "observed": 979,
+          "pass": true,
+          "required": 400
+        },
+        {
+          "name": "minimum_resolved_fraction",
+          "observed": 0.9775280898876404,
+          "pass": true,
+          "required": 0.6
+        },
+        {
+          "name": "minimum_absolute_effect",
+          "observed": 0.2216547497446374,
+          "pass": true,
+          "required": 0.05
+        },
+        {
+          "name": "bootstrap_interval_excludes_zero",
+          "observed": [
+            0.15670008704680602,
+            0.28294945116481635
+          ],
+          "pass": true,
+          "required": "95% interval entirely above or below zero"
+        },
+        {
+          "name": "same_sign_calendar_years",
+          "observed": 4,
+          "pass": true,
+          "required": 3
+        },
+        {
+          "name": "holm_adjusted_p",
+          "observed": 0.0005998800239952009,
+          "pass": true,
+          "required": "< 0.05"
+        }
+      ],
+      "gate_status": "PASS",
+      "holm_adjusted_p": 0.0005998800239952009,
+      "mechanism_classification": "ROBUST_CONTINUATION_CANDIDATE",
+      "primary_effect": 0.2216547497446374,
+      "resolved_fraction": 0.9775280898876404,
+      "same_sign_calendar_years": 4,
+      "secondary": {
+        "barriers": {
+          "0.25": {
+            "continuation_first_fraction": 0.6629213483146067,
+            "effect": 0.3268641470888662,
+            "failure_first_fraction": 0.33605720122574056,
+            "unresolved_fraction": 0.0010214504596527069
+          },
+          "1.0": {
+            "continuation_first_fraction": 0.4902962206332993,
+            "effect": 0.1501532175689479,
+            "failure_first_fraction": 0.34014300306435136,
+            "unresolved_fraction": 0.16956077630234934
+          }
+        },
+        "context": {
+          "mean_break_delay_minutes": 9.980592441266598,
+          "mean_break_overshoot_or_width": 0.1482979163816213,
+          "mean_or_width_atr14": 4.381728646096285,
+          "median_minutes_to_return_inside_or": 3.0,
+          "return_inside_or_fraction_60m": 0.8590398365679265
+        },
+        "mfe_mae": {
+          "1": {
+            "mean_mae_atr14": 0.57198382454107,
+            "mean_mae_or_width": 0.14111402259708167,
+            "mean_mfe_atr14": 0.6314082183075858,
+            "mean_mfe_or_width": 0.15935496768644378
+          },
+          "15": {
+            "mean_mae_atr14": 2.47329783315274,
+            "mean_mae_or_width": 0.609314179608269,
+            "mean_mfe_atr14": 2.594272786715532,
+            "mean_mfe_or_width": 0.64236726284504
+          },
+          "3": {
+            "mean_mae_atr14": 0.9941899701473069,
+            "mean_mae_or_width": 0.24532605836624896,
+            "mean_mfe_atr14": 1.1186122765130815,
+            "mean_mfe_or_width": 0.27727880931345184
+          },
+          "30": {
+            "mean_mae_atr14": 3.740840080425363,
+            "mean_mae_or_width": 0.9171694217898899,
+            "mean_mfe_atr14": 3.8474956044100344,
+            "mean_mfe_or_width": 0.9538468225423911
+          },
+          "5": {
+            "mean_mae_atr14": 1.332492133702016,
+            "mean_mae_or_width": 0.3270294232096548,
+            "mean_mfe_atr14": 1.4464101810774568,
+            "mean_mfe_or_width": 0.3575458838924138
+          },
+          "60": {
+            "mean_mae_atr14": 6.354386342239283,
+            "mean_mae_or_width": 1.5726858668665284,
+            "mean_mfe_atr14": 6.292515860355718,
+            "mean_mfe_or_width": 1.5376152166688146
+          }
+        },
+        "signed_close": {
+          "1": {
+            "mean_atr14": 0.05791448699642682,
+            "mean_or_width": 0.01796631516703258
+          },
+          "15": {
+            "mean_atr14": -0.02728496820181952,
+            "mean_or_width": -0.001926575090670687
+          },
+          "3": {
+            "mean_atr14": 0.024435956327472686,
+            "mean_or_width": 0.005055402683557031
+          },
+          "30": {
+            "mean_atr14": -0.07958329049150303,
+            "mean_or_width": -0.004818079442628106
+          },
+          "5": {
+            "mean_atr14": -0.01587392520010764,
+            "mean_or_width": -0.003741818874566672
+          },
+          "60": {
+            "mean_atr14": -0.1713026975990507,
+            "mean_or_width": -0.07958460700829634
+          }
+        }
+      },
+      "unresolved": 22,
+      "year_effects": {
+        "2019": 0.10655737704918032,
+        "2020": 0.3070539419087137,
+        "2021": 0.3172690763052209,
+        "2022": 0.15510204081632653
+      }
+    },
+    "OR30": {
+      "bootstrap_lower95": 0.1894459298355267,
+      "bootstrap_p_two_sided_unadjusted": 0.0001999600079984003,
+      "bootstrap_seed": 1284595874,
+      "bootstrap_upper95": 0.3102034156423365,
+      "ci_distance_from_zero": 0.1894459298355267,
+      "continuation_first": 561,
+      "directional_event_counts": {
+        "LONG": 504,
+        "SHORT": 431
+      },
+      "eligible_events": 935,
+      "failure_first": 327,
+      "gate_checks": [
+        {
+          "name": "minimum_eligible_events",
+          "observed": 935,
+          "pass": true,
+          "required": 400
+        },
+        {
+          "name": "minimum_resolved_fraction",
+          "observed": 0.9497326203208556,
+          "pass": true,
+          "required": 0.6
+        },
+        {
+          "name": "minimum_absolute_effect",
+          "observed": 0.25026737967914436,
+          "pass": true,
+          "required": 0.05
+        },
+        {
+          "name": "bootstrap_interval_excludes_zero",
+          "observed": [
+            0.1894459298355267,
+            0.3102034156423365
+          ],
+          "pass": true,
+          "required": "95% interval entirely above or below zero"
+        },
+        {
+          "name": "same_sign_calendar_years",
+          "observed": 4,
+          "pass": true,
+          "required": 3
+        },
+        {
+          "name": "holm_adjusted_p",
+          "observed": 0.0005998800239952009,
+          "pass": true,
+          "required": "< 0.05"
+        }
+      ],
+      "gate_status": "PASS",
+      "holm_adjusted_p": 0.0005998800239952009,
+      "mechanism_classification": "ROBUST_CONTINUATION_CANDIDATE",
+      "primary_effect": 0.25026737967914436,
+      "resolved_fraction": 0.9497326203208556,
+      "same_sign_calendar_years": 4,
+      "secondary": {
+        "barriers": {
+          "0.25": {
+            "continuation_first_fraction": 0.6887700534759358,
+            "effect": 0.3786096256684492,
+            "failure_first_fraction": 0.31016042780748665,
+            "unresolved_fraction": 0.0010695187165775401
+          },
+          "1.0": {
+            "continuation_first_fraction": 0.41497326203208557,
+            "effect": 0.14545454545454545,
+            "failure_first_fraction": 0.2695187165775401,
+            "unresolved_fraction": 0.3155080213903743
+          }
+        },
+        "context": {
+          "mean_break_delay_minutes": 12.348663101604279,
+          "mean_break_overshoot_or_width": 0.12451643785484039,
+          "mean_or_width_atr14": 5.635805293734344,
+          "median_minutes_to_return_inside_or": 3.0,
+          "return_inside_or_fraction_60m": 0.8320855614973262
+        },
+        "mfe_mae": {
+          "1": {
+            "mean_mae_atr14": 0.6017809240945069,
+            "mean_mae_or_width": 0.11635347193207213,
+            "mean_mfe_atr14": 0.7045438034167838,
+            "mean_mfe_or_width": 0.1385489360164641
+          },
+          "15": {
+            "mean_mae_atr14": 2.2067281843174427,
+            "mean_mae_or_width": 0.4265237439385032,
+            "mean_mfe_atr14": 2.7482471022310504,
+            "mean_mfe_or_width": 0.5350206104140723
+          },
+          "3": {
+            "mean_mae_atr14": 0.9966134752869468,
+            "mean_mae_or_width": 0.19240080969191056,
+            "mean_mfe_atr14": 1.2051492799518493,
+            "mean_mfe_or_width": 0.23706935243961158
+          },
+          "30": {
+            "mean_mae_atr14": 3.716119153788328,
+            "mean_mae_or_width": 0.7395809213169722,
+            "mean_mfe_atr14": 4.345198394596865,
+            "mean_mfe_or_width": 0.8510843713015599
+          },
+          "5": {
+            "mean_mae_atr14": 1.2844906805808611,
+            "mean_mae_or_width": 0.2483111978670002,
+            "mean_mfe_atr14": 1.5945883370394995,
+            "mean_mfe_or_width": 0.3180499193299996
+          },
+          "60": {
+            "mean_mae_atr14": 5.704093025504149,
+            "mean_mae_or_width": 1.1108313752025492,
+            "mean_mfe_atr14": 6.494033889942134,
+            "mean_mfe_or_width": 1.2581481159028385
+          }
+        },
+        "signed_close": {
+          "1": {
+            "mean_atr14": 0.08141123841601762,
+            "mean_or_width": 0.016962577711316578
+          },
+          "15": {
+            "mean_atr14": 0.3508022740748927,
+            "mean_or_width": 0.07180390853771981
+          },
+          "3": {
+            "mean_atr14": 0.10748941798607234,
+            "mean_or_width": 0.025095063224928896
+          },
+          "30": {
+            "mean_atr14": 0.311003446101825,
+            "mean_or_width": 0.05548458370815826
+          },
+          "5": {
+            "mean_atr14": 0.20043606702996297,
+            "mean_or_width": 0.04530168229213669
+          },
+          "60": {
+            "mean_atr14": 0.5072189968150106,
+            "mean_or_width": 0.09831182048388752
+          }
+        }
+      },
+      "unresolved": 47,
+      "year_effects": {
+        "2019": 0.22362869198312235,
+        "2020": 0.2610619469026549,
+        "2021": 0.2723404255319149,
+        "2022": 0.24472573839662448
+      }
+    },
+    "OR5": {
+      "bootstrap_lower95": 0.21334347492082578,
+      "bootstrap_p_two_sided_unadjusted": 0.0001999600079984003,
+      "bootstrap_seed": 3468906680,
+      "bootstrap_upper95": 0.34239815486521147,
+      "ci_distance_from_zero": 0.21334347492082578,
+      "continuation_first": 630,
+      "directional_event_counts": {
+        "LONG": 487,
+        "SHORT": 501
+      },
+      "eligible_events": 988,
+      "failure_first": 355,
+      "gate_checks": [
+        {
+          "name": "minimum_eligible_events",
+          "observed": 988,
+          "pass": true,
+          "required": 400
+        },
+        {
+          "name": "minimum_resolved_fraction",
+          "observed": 0.9969635627530364,
+          "pass": true,
+          "required": 0.6
+        },
+        {
+          "name": "minimum_absolute_effect",
+          "observed": 0.2783400809716599,
+          "pass": true,
+          "required": 0.05
+        },
+        {
+          "name": "bootstrap_interval_excludes_zero",
+          "observed": [
+            0.21334347492082578,
+            0.34239815486521147
+          ],
+          "pass": true,
+          "required": "95% interval entirely above or below zero"
+        },
+        {
+          "name": "same_sign_calendar_years",
+          "observed": 4,
+          "pass": true,
+          "required": 3
+        },
+        {
+          "name": "holm_adjusted_p",
+          "observed": 0.0005998800239952009,
+          "pass": true,
+          "required": "< 0.05"
+        }
+      ],
+      "gate_status": "PASS",
+      "holm_adjusted_p": 0.0005998800239952009,
+      "mechanism_classification": "ROBUST_CONTINUATION_CANDIDATE",
+      "primary_effect": 0.2783400809716599,
+      "resolved_fraction": 0.9969635627530364,
+      "same_sign_calendar_years": 4,
+      "secondary": {
+        "barriers": {
+          "0.25": {
+            "continuation_first_fraction": 0.6751012145748988,
+            "effect": 0.35121457489878544,
+            "failure_first_fraction": 0.32388663967611336,
+            "unresolved_fraction": 0.0010121457489878543
+          },
+          "1.0": {
+            "continuation_first_fraction": 0.5587044534412956,
+            "effect": 0.15890688259109312,
+            "failure_first_fraction": 0.39979757085020245,
+            "unresolved_fraction": 0.04149797570850203
+          }
+        },
+        "context": {
+          "mean_break_delay_minutes": 5.3228744939271255,
+          "mean_break_overshoot_or_width": 0.2460353184411471,
+          "mean_or_width_atr14": 2.636363793970811,
+          "median_minutes_to_return_inside_or": 3.0,
+          "return_inside_or_fraction_60m": 0.8744939271255061
+        },
+        "mfe_mae": {
+          "1": {
+            "mean_mae_atr14": 0.526420420315543,
+            "mean_mae_or_width": 0.22244848353945265,
+            "mean_mfe_atr14": 0.5826478196903405,
+            "mean_mfe_or_width": 0.2532514597904892
+          },
+          "15": {
+            "mean_mae_atr14": 2.3060454679279427,
+            "mean_mae_or_width": 0.9782873583336752,
+            "mean_mfe_atr14": 2.3109188227028556,
+            "mean_mfe_or_width": 0.9852320692184758
+          },
+          "3": {
+            "mean_mae_atr14": 0.9505258541030704,
+            "mean_mae_or_width": 0.40477343349490286,
+            "mean_mfe_atr14": 1.0113910591063204,
+            "mean_mfe_or_width": 0.43449265254835967
+          },
+          "30": {
+            "mean_mae_atr14": 3.5587087375718167,
+            "mean_mae_or_width": 1.5233028498755026,
+            "mean_mfe_atr14": 3.5413539557130935,
+            "mean_mfe_or_width": 1.5058975176739844
+          },
+          "5": {
+            "mean_mae_atr14": 1.2731165863251594,
+            "mean_mae_or_width": 0.5421434833163523,
+            "mean_mfe_atr14": 1.3188716140564933,
+            "mean_mfe_or_width": 0.5655403551069302
+          },
+          "60": {
+            "mean_mae_atr14": 6.152587156008254,
+            "mean_mae_or_width": 2.626844227782319,
+            "mean_mfe_atr14": 5.730152284036091,
+            "mean_mfe_or_width": 2.4576045589636313
+          }
+        },
+        "signed_close": {
+          "1": {
+            "mean_atr14": 0.04290052284391457,
+            "mean_or_width": 0.01945874271544549
+          },
+          "15": {
+            "mean_atr14": -0.055419221505385835,
+            "mean_or_width": -0.021902895888982102
+          },
+          "3": {
+            "mean_atr14": -0.008044966168506817,
+            "mean_or_width": -0.0010801574720004947
+          },
+          "30": {
+            "mean_atr14": -0.1316035516683041,
+            "mean_or_width": -0.06489138490020774
+          },
+          "5": {
+            "mean_atr14": -0.06228799949295602,
+            "mean_or_width": -0.02256089041663039
+          },
+          "60": {
+            "mean_atr14": -0.5222027713435832,
+            "mean_or_width": -0.21351531252118028
+          }
+        }
+      },
+      "unresolved": 3,
+      "year_effects": {
+        "2019": 0.26639344262295084,
+        "2020": 0.2979591836734694,
+        "2021": 0.2589641434262948,
+        "2022": 0.2903225806451613
+      }
+    }
+  },
+  "variants_passing_all_development_gates": [
+    "OR5",
+    "OR15",
+    "OR30"
+  ]
+}
